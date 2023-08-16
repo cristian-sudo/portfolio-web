@@ -41,6 +41,18 @@ fields:
               fields:
                 -
                   import: article
+        test:
+          display: Test
+          instructions: 'Text based blocks.'
+          icon: text-formatting-initial-letter
+          sets:
+            article:
+              display: Article
+              instructions: 'Long form content, can be expanded with media like figures, video, quotes or tables.'
+              icon: text-formatting-image-bottom
+              fields:
+                -
+                  import: article
       instructions_position: above
       visibility: visible
       previews: true
