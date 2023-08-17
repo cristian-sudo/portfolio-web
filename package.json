@@ -30,6 +30,7 @@
     "postcss-focus-visible": "^9.0.0",
     "postcss-import": "^15.1.0",
     "resolve-url-loader": "^5.0.0",
+    "sass": "^1.65.1",
     "tailwindcss": "^3.3.3",
     "vite": "^4.4.8",
     "vite-plugin-browser-sync": "^1.0.3"
