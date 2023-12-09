@@ -42,16 +42,16 @@ fields:
               fields:
                 -
                   import: buttons
-            hero_section:
-              display: 'Hero section'
-              fields:
-                -
-                  import: hero_section
         text:
           display: Text
           instructions: 'Text based sets.'
           icon: text-formatting-initial-letter
           sets:
+            hero_banner:
+              display: 'Hero Banner'
+              fields:
+                -
+                  import: hero_banner
             pull_quote:
               display: 'Pull quote'
               instructions: 'Add a pull quote with an optional author.'

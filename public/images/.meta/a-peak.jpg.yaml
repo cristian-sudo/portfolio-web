@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: alt
 size: 1076743
 last_modified: 1692053697
 width: 3696
