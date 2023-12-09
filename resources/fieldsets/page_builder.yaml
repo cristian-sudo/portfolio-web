@@ -41,18 +41,13 @@ fields:
               fields:
                 -
                   import: article
-        test:
-          display: Test
-          instructions: 'Text based blocks.'
-          icon: text-formatting-initial-letter
-          sets:
-            article:
-              display: Article
-              instructions: 'Long form content, can be expanded with media like figures, video, quotes or tables.'
+            hero_banner:
+              display: Hero Banner
+              instructions: 'First card shown on the homepage.'
               icon: text-formatting-image-bottom
               fields:
                 -
-                  import: article
+                  import: hero_banner
       instructions_position: above
       visibility: visible
       previews: true
