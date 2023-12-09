@@ -42,6 +42,11 @@ fields:
               fields:
                 -
                   import: buttons
+            hero_section:
+              display: 'Hero section'
+              fields:
+                -
+                  import: hero_section
         text:
           display: Text
           instructions: 'Text based sets.'
