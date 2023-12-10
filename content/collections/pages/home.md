@@ -3,7 +3,7 @@ id: home
 blueprint: page
 title: Home
 updated_by: 8350761f-fe3f-491d-834e-e0c43793a576
-updated_at: 1702163912
+updated_at: 1702209902
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry

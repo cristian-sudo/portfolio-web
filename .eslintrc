@@ -1,0 +1,21 @@
+{
+    "env": {
+        "browser": true
+    },
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaVersion": 2020
+    },
+    "plugins": ["simple-import-sort", "sonarjs", "promise"],
+    "extends": ["eslint:recommended", "plugin:sonarjs/recommended"],
+    "rules": {
+        "quotes": ["error", "single"],
+        "semi": "error",
+        "semi-style": ["error", "last"],
+        "no-useless-catch": "error",
+        "simple-import-sort/imports": "warn",
+        "simple-import-sort/exports": "warn",
+        "promise/prefer-await-to-callbacks": "error"
+    },
+    "ignorePatterns": []
+}
