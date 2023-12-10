@@ -1,5 +1,6 @@
-import { danger, warn, fail } from 'danger';
+import { danger, warn } from 'danger';
 
+// eslint-disable-next-line no-unused-vars
 function gitBranchingRules(options, danger) {
     const { rules, response } = options;
     const { github } = danger;
@@ -22,7 +23,7 @@ function gitBranchingRules(options, danger) {
     }
 
     if (!ruleMatch) {
-        const detailedMsg = failedRuleIndex === -1 ? "The head branch doesn't match any allowed branch naming rules." : `${rules[failedRuleIndex].message}.`;
+        const detailedMsg = failedRuleIndex === -1 ? 'The head branch doesn\'t match any allowed branch naming rules.' : `${rules[failedRuleIndex].message}.`;
         response(`${detailedMsg} Please check your branch names and merge targets.`);
     }
 }
@@ -48,7 +49,7 @@ function checkReviewers(options, danger) {
     const reviewers = github.pr.requested_reviewers.length;
 
     if (reviewers === 0) {
-        response("There are no reviewers assigned to this PR. Please add a reviewer before merging.");
+        response('There are no reviewers assigned to this PR. Please add a reviewer before merging.');
     } else if (reviewers < min) {
         response(`There are less than ${min} reviewers assigned to the PR. Please ensure enough people have been assigned.`);
     }
@@ -58,7 +59,7 @@ function checkSystemFiles(path, danger) {
     const src = danger.git.fileMatch(path);
 
     if (src.modified) {
-        warn('There are modified system files within this branch - please check they are valid.')
+        warn('There are modified system files within this branch - please check they are valid.');
     }
 }
 

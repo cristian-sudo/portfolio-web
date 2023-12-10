@@ -1,8 +1,10 @@
-import laravel from 'laravel-vite-plugin'
-import { defineConfig, loadEnv } from 'vite'
+import laravel from 'laravel-vite-plugin';
+import { defineConfig, loadEnv } from 'vite';
 
+// eslint-disable-next-line no-unused-vars
 export default defineConfig(({ command, mode }) => {
-    const env = loadEnv(mode, process.cwd(), '')
+    // eslint-disable-next-line no-undef
+    const env = loadEnv(mode, process.cwd(), '');
     return {
         plugins: [
             laravel({
@@ -16,5 +18,5 @@ export default defineConfig(({ command, mode }) => {
         server: {
             open: env.APP_URL
         }
-    }
+    };
 });
