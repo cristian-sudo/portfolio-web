@@ -3,7 +3,7 @@ id: home
 blueprint: page
 title: Home
 updated_by: 8350761f-fe3f-491d-834e-e0c43793a576
-updated_at: 1702209902
+updated_at: 1702396122
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -46,4 +46,6 @@ page_builder:
     image_hero_banner:
       - a-peak.jpg
     background_color: '#ff4747'
+    cta_text: 'Learn more'
+    cta_link: 'entry::5ff83c28-229b-4cb8-b5ed-c027ff0b00d7'
 ---
