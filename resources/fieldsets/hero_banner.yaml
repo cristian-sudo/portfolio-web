@@ -101,3 +101,22 @@ fields:
       visibility: visible
       replicator_preview: true
       hide_display: false
+  -
+    handle: corner_illustartion
+    field:
+      max_files: 1
+      min_files: 1
+      mode: list
+      container: favicons
+      restrict: false
+      allow_uploads: true
+      show_filename: true
+      show_set_alt: true
+      type: assets
+      display: 'Corner illustartion'
+      icon: assets
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
