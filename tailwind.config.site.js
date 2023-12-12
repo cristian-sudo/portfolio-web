@@ -41,23 +41,11 @@ module.exports = {
         DEFAULT: 'cubic-bezier(0.4, 0, 0.2, 1)',
       },
       colors: {
-        // Colours are placeholder until hex codes are finalised.
-        // 'cw' represents Ceres Web project name
-        'pl-purple': {
-          200: '#642de5',
-        },
-        'pl-platium': {
-          100: '#f8f8f8',
-        },
-        'pl-blue': {
-          100: '#028090',
-        },
-        'pl-dirty_grey': {
-          300: '#565254',
-        },
-        'pl_nude':{
-          200: '#d6cbb5'
-        }
+        'pl-purple': '#642de5',
+        'pl-platium': '#f8f8f8',
+        'pl-blue': '#028090',
+        'pl-dirty-grey': '#565254',
+        'pl-nude': '#d6cbb5'
       },
       boxShadow: {
         'cards': '0px 10px 20px rgba(0, 0, 0, 0.1)',
@@ -133,7 +121,7 @@ module.exports = {
     plugin(function({ addUtilities, theme, variants }) {
       const newUtilities = {
       }
-      addUtilities(newUtilities)
+      addUtilities(newUtilities);
     }),
   ]
 }
