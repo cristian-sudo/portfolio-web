@@ -7,3 +7,9 @@ data:
       prefix: 'https://www.github.com/'
       type: github
       enabled: true
+    -
+      id: lqxz9urt
+      handle: criss
+      prefix: 'https://www.linkedin.com/'
+      type: linkedin
+      enabled: true
