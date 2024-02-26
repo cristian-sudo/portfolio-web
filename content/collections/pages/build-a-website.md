@@ -8,7 +8,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 8350761f-fe3f-491d-834e-e0c43793a576
-updated_at: 1702084135
+updated_at: 1708973659
 page_description:
   -
     type: paragraph
@@ -16,5 +16,5 @@ page_description:
       -
         type: text
         text: "Build custom websites tailored to clients' needs, from concept to deployment, using the latest technologies and frameworks."
-icon: build-svgrepo-com.svg
+icon: share-svgrepo-com.svg
 ---
