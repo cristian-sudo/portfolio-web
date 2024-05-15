@@ -29,6 +29,11 @@ fields:
               fields:
                 -
                   import: link_blocks
+            website:
+              display: Website
+              fields:
+                -
+                  import: website
         text:
           display: Text
           instructions: 'Text based blocks.'
@@ -42,12 +47,9 @@ fields:
                 -
                   import: article
             hero_banner:
-              display: Hero Banner
+              display: 'Hero Banner'
               instructions: 'First card shown on the homepage.'
               icon: text-formatting-image-bottom
               fields:
                 -
                   import: hero_banner
-      instructions_position: above
-      visibility: visible
-      previews: true

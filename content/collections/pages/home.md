@@ -2,8 +2,8 @@
 id: home
 blueprint: page
 title: Home
-updated_by: 8350761f-fe3f-491d-834e-e0c43793a576
-updated_at: 1702423541
+updated_by: 731edf38-d6c4-4232-88fb-54322fd59fd1
+updated_at: 1715813468
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -31,4 +31,52 @@ page_builder:
     cta_text: 'Learn more'
     cta_link: 'entry::5ff83c28-229b-4cb8-b5ed-c027ff0b00d7'
     corner_illustartion: scenes02.svg
+  -
+    id: lw8euvaf
+    type: website
+    enabled: true
+    video_overview: 'https://portfolio-web.test/cp/collections/pages/entries/home'
+    title:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: title
+    subtitle:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: subtitle
+    content:
+      -
+        id: lw8f0wlm
+        icon: edit
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: descriptiom
+        link_label: label
+        link: 'https://portfolio-web.test/cp/collections/pages/entries/home'
+        title:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: title
+        type: new_set
+        enabled: true
+    footer:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: footer
 ---
