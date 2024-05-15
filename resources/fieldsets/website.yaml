@@ -1,0 +1,85 @@
+title: Website
+fields:
+  -
+    handle: video_overview
+    field:
+      type: video
+      display: 'Video overview'
+  -
+    handle: title
+    field:
+      buttons:
+        - h2
+        - h3
+        - bold
+        - italic
+        - unorderedlist
+        - orderedlist
+        - removeformat
+        - quote
+        - anchor
+        - image
+        - table
+        - h1
+        - h4
+        - h5
+        - h6
+        - underline
+        - strikethrough
+        - small
+        - codeblock
+      remove_empty_nodes: false
+      type: bard
+      display: Title
+  -
+    handle: subtitle
+    field:
+      remove_empty_nodes: false
+      type: bard
+      display: Subtitle
+  -
+    handle: content
+    field:
+      type: replicator
+      display: Content
+      sets:
+        new_set_group:
+          display: 'New Set Group'
+          sets:
+            new_set:
+              display: 'New Set'
+              fields:
+                -
+                  handle: icon
+                  field:
+                    directory: resources/svg
+                    type: icon
+                    display: Icon
+                -
+                  handle: description
+                  field:
+                    remove_empty_nodes: false
+                    type: bard
+                    display: Description
+                -
+                  handle: link_label
+                  field:
+                    type: text
+                    display: 'Link label'
+                -
+                  handle: link
+                  field:
+                    type: link
+                    display: Link
+                -
+                  handle: title
+                  field:
+                    remove_empty_nodes: false
+                    type: bard
+                    display: Title
+  -
+    handle: footer
+    field:
+      remove_empty_nodes: false
+      type: bard
+      display: Footer
